@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 40%;
+    border: 3px;
+    border-radius: 50px;
+    
+}
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    background-color:black ;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding:20px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(59, 228, 250);
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.rightNav{
+    width: 50%;
+    background-color: black;
+    text-align: right;
+}
+
+.search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius:  9px;
+}
+
+.background{
+    background: rgba(255, 255, 255, 0.7) url('../img/ghosthunter.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(94, 11, 228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+}
